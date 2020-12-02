@@ -37,3 +37,5 @@
          ListNode *Next;
          }*head;`
       -  The function declaration of MoveToFront function is Void MoveToFront(int);
+4. Stacks
+   1. Write this function to display the elements of stack e.g. `Void ListStack::display() { }`
