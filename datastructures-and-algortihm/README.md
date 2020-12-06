@@ -39,3 +39,14 @@
       -  The function declaration of MoveToFront function is Void MoveToFront(int);
 4. Stacks
    1. Write this function to display the elements of stack e.g. `Void ListStack::display() { }`
+   2. Implement using static stacks.
+      - Write a program using stack operations, which accepts a non-negative base 10 integer as a parameter, and display binary representation of number.
+      - Description: To convert a number from decimal to binary, you simply divide by two and push reminder to stack until quotient is reached to zero, then use pop operation to display the binary representation of number.
+      - For example, to convert (35), to binary, you perform the following computation. 
+        - 35/2 = 1 
+        - 17/2 = 1
+        - 8/2 = 0
+        - 4/2 = 0 
+        - 2/2 = 0 
+        - 1 
+      - If you examine the remainders from the last division to the first one, writing them down as you go, you will get the following sequence: 100011. i.e. (100011)(base2)=(35)(base10)
