@@ -50,3 +50,12 @@
         - 2/2 = 0 
         - 1 
       - If you examine the remainders from the last division to the first one, writing them down as you go, you will get the following sequence: 100011. i.e. (100011)(base2)=(35)(base10)
+   3. Write a program to compare opening and closing brackets in expression.
+      - This program takes an expression in the form of string and scan it character by character. Finally, the output of the program is the valid or invalid expression. 
+      - Algorithm:
+        - To do this comparison a stack ADT can be used to keep track of the scope delimiters encountered while scanning the expression.
+        - Whenever a scope "opener" is encountered, it can be "pushed" onto a stack Whenever a scope "ender" is encountered, the stack is examined: 
+          - If the stack is "empty", there is no matching scope "opener" and the expression is invalid.
+          - If the stack is not empty, we pop the stack and check if the "popped" item corresponds to the scope ender
+          - If match occurs, we continue scanning the expression
+        - When end of the expression string is reached, the stack must be empty, otherwise one or more opened scopes have not been closed and the expression is invalid
