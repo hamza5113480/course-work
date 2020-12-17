@@ -59,3 +59,8 @@
           - If the stack is not empty, we pop the stack and check if the "popped" item corresponds to the scope ender
           - If match occurs, we continue scanning the expression
         - When end of the expression string is reached, the stack must be empty, otherwise one or more opened scopes have not been closed and the expression is invalid
+5. Application of Stacks
+   1. Take a string expression as input from user. Using this infix expression, you have to convert it into its equivalent postfix notation.
+   ` - Example: a+(b*c)`
+   2. Write code to evaluate the infix expression without parenthesis given by user. 
+      `- Example: 3+4-5/2`
