@@ -64,3 +64,13 @@
    ` - Example: a+(b*c)`
    2. Write code to evaluate the infix expression without parenthesis given by user. 
       `- Example: 3+4-5/2`
+6. Queues
+   1. Write a menu driven program to perform different operations with queue such aEnqueue(), Dequeue() and DisplayQueue().
+   2. In this Exercise, you have to take a single string as input. Using this input string, you have to create multiple queues in which each queue will consist of separate word appeared in input string. At the end, you will again concatenate all queues to a single queue.
+      - Example: String = "Data Structure and Algo" 
+        - Q1 D→a→t→a
+        - Q2 S→t→r→u→c→t→u→r→e
+        - Q3 a→n→d
+        - Q4 A→l→g→o
+      - At the end concatenate all queues and display them.
+        - Q1→Q2→Q-3→Q4
