@@ -74,3 +74,11 @@
         - Q4 A→l→g→o
       - At the end concatenate all queues and display them.
         - Q1→Q2→Q-3→Q4
+7. Recursion
+   1. Write a function to calculate triangular number using recursion. 
+      - Int tri_num(int x);
+      - tri_num(4)=10 i.e. 4+3+2+1+0=10"
+   2. Create a recursive function for Fibonacci series and a program for calculating it. In mathematics, the Fibonacci numbers are the numbers in the following integer sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21
+   3. Write a recursive function to display the data members of linked List in reverse order.
+   4. Write a program to reverse a number
+   5. Write a recursive function to implement the algorithm of tower of Hanoi.
