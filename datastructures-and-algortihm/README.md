@@ -82,3 +82,7 @@
    3. Write a recursive function to display the data members of linked List in reverse order.
    4. Write a program to reverse a number
    5. Write a recursive function to implement the algorithm of tower of Hanoi.
+8. Sorting
+   1. Write a program to sort a given array by using the insertion sort.
+   2. Write a program to sort a given array by using the bubble sort.
+   3. Write a program to sort a given array by using the merge sort.
