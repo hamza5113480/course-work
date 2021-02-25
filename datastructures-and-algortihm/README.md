@@ -86,3 +86,10 @@
    1. Write a program to sort a given array by using the insertion sort.
    2. Write a program to sort a given array by using the bubble sort.
    3. Write a program to sort a given array by using the merge sort.
+9. Searching 
+   1. Create function for each algorithm using Array:
+      - Linear search 
+      - Binary search
+      - `Input list of numbers: 6 13 14 25 33 43 51 53 64 72 84 93 95 96 97`
+   2. Write a program to search an element linearly from the entered numbers. Also, indicate its position in case the element is found or unavailability.
+   3. Write a program to demonstrate binary search. Use character array and store 10 names. This program prompts the user to enter ten names. They are stored in ascending order the name  (15) (10) the fn(15) is used to store the name which we want to search.
