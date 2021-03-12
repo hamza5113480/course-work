@@ -100,3 +100,9 @@
         - Preorder traversals
         - Inorder traversals
         - Postorder traversals
+11. Binary Search Trees
+    1. Write a menu-driven program for inserting and deleting an element of binary search tree.
+    2. Write a menu-driven program to traverse the binary search tree by using the following:
+       - Preorder traversals
+       - Inorder traversals
+       - Postorder traversals
