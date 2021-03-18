@@ -106,3 +106,14 @@
        - Preorder traversals
        - Inorder traversals
        - Postorder traversals
+12. Graphs
+    1. Write a function called DelAllMinEdges(). This function will first search all the edges in the graph and will delete all those edges having minimum weight. Consider that graph is implemented using Adjacency List. Consider the following structure for both Vertices and Edges
+    - `Struct GNode
+      {
+      int weight;
+      GNode *ptr;
+      }*GList;`
+    - Note: In the following example DelAllMinEdges() will delete the edge between vertex 4 to 3 and 1 to 4 because of minimum weight.
+13. Minimum Spanning Trees & Dijikstra's Algorithm
+    1. Develop an algorithm that creates a minimal cost spanning tree, where the graph is represented by an adjacency matrix.
+    2. Write a program, which reads an adjacency matrix representation of a graph and applies Kruskal's algorithm to find the minimum spanning tree of the input graph.
