@@ -25,3 +25,7 @@ Insert into STUDENT values(1243, 'Naseer', 'Ahmed','D-32','bahawalpur','Pakistan
 Insert into STUDENT values(1244, 'Saleem', 'Ahmed','D-33','rahimyarkhan','Pakistan','10-Nov-1996','M');
 Insert into STUDENT values(1245, 'hassan', 'khan','D-34','kotli','Pakistan','10-Oct-1998','F');
 Insert into STUDENT values(1246, 'bilal', 'khan','D-35','kashmir','Pakistan','10-Oct-1978','F');
+
+--> Write SQL statements to view all entries in the table and also attach printed output of table.
+Select * from STUDENT
+
