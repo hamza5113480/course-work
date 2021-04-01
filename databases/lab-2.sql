@@ -11,3 +11,7 @@ CREATE TABLE EMPLOYEE (
     PRIMARY KEY (EMPNO)
 );
 
+--> Add two columns Commission and HireDate to the EMPLOYEE table. Commission is a decimal type and can be NULL.
+ALTER TABLE EMPLOYEE ADD Commission NUMERIC(7, 2);
+ALTER TABLE EMPLOYEE ADD HireDate DATE;
+
