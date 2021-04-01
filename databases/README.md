@@ -18,3 +18,4 @@
             MGR	|	NUMBER(4)
             DEPTNO 	|        NUMBER(3)
             SAL	|	NUMBER(7,2)
+2. Add two columns Commission and HireDate to the EMPLOYEE table. Commission is a decimal type and can be NULL.
