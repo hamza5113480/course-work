@@ -18,4 +18,6 @@ ALTER TABLE EMPLOYEE ADD HireDate DATE;
 --> Modify the column width of the JOB field of EMPLOYEE table with VARCHAR(50).
 ALTER TABLE EMPLOYEE
 ALTER COLUMN JOB VARCHAR(50);
+--> Write a query to drop a column DOJ to the EMPLOYEE table.
+ALTER TABLE EMPLOYEE DROP COLUMN DOJ;
 
