@@ -21,3 +21,13 @@
 2. Add two columns Commission and HireDate to the EMPLOYEE table. Commission is a decimal type and can be NULL.
 3. Modify the column width of the JOB field of EMPLOYEE table with VARCHAR(50).
 4. Write a query to drop a column DOJ to the EMPLOYEE table.
+### Lab-3:
+1. Create DEPARTMENT table with the following structure and set the DEPTNO as primary key and DNAME is unique key.
+
+            Name	 |	Type
+            -------------------------
+            DEPTNO	 |	NUMBER(2)
+            DNAME	 |	VARCHAR2(10)
+            LOCATION	 |	VARCHAR2(10)
+            ESTABLISHED |	DATE
+
