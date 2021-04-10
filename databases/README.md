@@ -30,4 +30,5 @@
             DNAME	 |	VARCHAR2(10)
             LOCATION	 |	VARCHAR2(10)
             ESTABLISHED |	DATE
+2. Write a query to add constraints to the EMPLOYEE table that EMPNO as the primary key and DEPTNO as the foreign key.
 
