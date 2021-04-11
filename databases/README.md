@@ -31,4 +31,5 @@
             LOCATION	 |	VARCHAR2(10)
             ESTABLISHED |	DATE
 2. Write a query to add constraints to the EMPLOYEE table that EMPNO as the primary key and DEPTNO as the foreign key.
+3. The Company wants to set 3000 as a min salary of employee. You are required to write a query to add suitable constraint to the EMPLOYEE table.
 
