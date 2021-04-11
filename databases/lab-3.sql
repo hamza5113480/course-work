@@ -11,3 +11,5 @@ CREATE TABLE DEPARTMENT (
 ALTER TABLE EMPLOYEE ADD CONSTRAINT pk_empno PRIMARY KEY (EMPNO);
 ALTER TABLE EMPLOYEE ADD CONSTRAINT fk_deptno FOREIGN KEY (DEPTNO) REFERENCES DEPARTMENT(DEPTNO);
 
+--> The Company wants to set 3000 as a min salary of employee. You are required to write a query to add suitable constraint to the EMPLOYEE table.
+ALTER TABLE EMPLOYEE ADD CONSTRAINT check_sal CHECK (SAL >= 3000);
