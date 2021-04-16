@@ -35,3 +35,5 @@
 
 ### Lab-4:
 1. Insert 10 record into DEPARTMENT table, which is created in previous Lab.
+2. Insert 12 record into EMPLOYEE table, which is created in previous Lab.
+
