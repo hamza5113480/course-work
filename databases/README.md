@@ -33,3 +33,5 @@
 2. Write a query to add constraints to the EMPLOYEE table that EMPNO as the primary key and DEPTNO as the foreign key.
 3. The Company wants to set 3000 as a min salary of employee. You are required to write a query to add suitable constraint to the EMPLOYEE table.
 
+### Lab-4:
+1. Insert 10 record into DEPARTMENT table, which is created in previous Lab.
