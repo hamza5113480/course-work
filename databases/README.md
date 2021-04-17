@@ -36,4 +36,5 @@
 ### Lab-4:
 1. Insert 10 record into DEPARTMENT table, which is created in previous Lab.
 2. Insert 12 record into EMPLOYEE table, which is created in previous Lab.
+3. Update the EMPLOYEE table to set the commission of all employees to Rs 1800/- who are working as MANAGER
 
