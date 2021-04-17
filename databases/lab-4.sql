@@ -28,3 +28,9 @@ INSERT INTO EMPLOYEE VALUES(12,'Yalmaz','M','Programmer','2-7-2009',6,7,40000)
 --> Update the EMPLOYEE table to set the commission of all employees to Rs 1800/- who are working as MANAGER
 UPDATE EMPLOYEE SET Commission = 1800 WHERE JOB = 'MANAGER';
 
+--> Create a pseudo table EMPLOYEE_2 with the same structure as the table EMPLOYEE and insert rows into the table using select clauses.
+SELECT *
+INTO EMPLOYEE_2
+FROM EMPLOYEE;
+
+
