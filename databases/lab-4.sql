@@ -24,3 +24,7 @@ INSERT INTO EMPLOYEE VALUES(9,'Umar Arif','M','Director','12-9-2005',6,7,50000)
 INSERT INTO EMPLOYEE VALUES(10,'Atif','M','Director','12-4-2006',2,5,50000)
 INSERT INTO EMPLOYEE VALUES(11,'Umair','F','Developer','14-2-2018',2,5,40000)
 INSERT INTO EMPLOYEE VALUES(12,'Yalmaz','M','Programmer','2-7-2009',6,7,40000)
+
+--> Update the EMPLOYEE table to set the commission of all employees to Rs 1800/- who are working as MANAGER
+UPDATE EMPLOYEE SET Commission = 1800 WHERE JOB = 'MANAGER';
+
