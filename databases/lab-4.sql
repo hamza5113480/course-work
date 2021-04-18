@@ -33,4 +33,6 @@ SELECT *
 INTO EMPLOYEE_2
 FROM EMPLOYEE;
 
+--> Delete all employees, who are working as "Cleark".
+DELETE FROM EMPLOYEE WHERE JOB = 'Cleark';
 
