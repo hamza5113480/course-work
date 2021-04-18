@@ -39,4 +39,5 @@
 3. Update the EMPLOYEE table to set the commission of all employees to Rs 1800/- who are working as MANAGER
 4. Create a pseudo table EMPLOYEE_2 with the same structure as the table EMPLOYEE and insert rows into the table using select clauses.
 5. Delete all employees, who are working as "Cleark".
+6. Delete the employee, whose name is Qasim.
 

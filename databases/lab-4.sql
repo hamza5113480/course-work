@@ -36,3 +36,7 @@ FROM EMPLOYEE;
 --> Delete all employees, who are working as "Cleark".
 DELETE FROM EMPLOYEE WHERE JOB = 'Cleark';
 
+--> Delete the employee, whose name is Qasim.
+DELETE FROM EMPLOYEE WHERE ENAME = 'Qasim';
+
+
