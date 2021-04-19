@@ -39,4 +39,8 @@ DELETE FROM EMPLOYEE WHERE JOB = 'Cleark';
 --> Delete the employee, whose name is Qasim.
 DELETE FROM EMPLOYEE WHERE ENAME = 'Qasim';
 
+--> List all employees, order by Job in ascending order.
+SELECT * FROM EMPLOYEE ORDER BY JOB ASC;
+--> List all employees, order by Job in descending order.
+SELECT * FROM EMPLOYEE ORDER BY JOB DESC;
 
