@@ -43,3 +43,5 @@
 7. List all employees, order by Job
    - In ascending order.
    - In descending order
+8. Display JOBS from the EMPLOYEE table avoiding the duplicated values.
+

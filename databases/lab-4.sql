@@ -43,4 +43,5 @@ DELETE FROM EMPLOYEE WHERE ENAME = 'Qasim';
 SELECT * FROM EMPLOYEE ORDER BY JOB ASC;
 --> List all employees, order by Job in descending order.
 SELECT * FROM EMPLOYEE ORDER BY JOB DESC;
-
+--> Display JOBS from the EMPLOYEE table avoiding the duplicated values.
+SELECT DISTINCT JOB FROM EMPLOYEE;
