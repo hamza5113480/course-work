@@ -44,4 +44,14 @@
    - In ascending order.
    - In descending order
 8. Display JOBS from the EMPLOYEE table avoiding the duplicated values.
-
+### Lab-5:
+1. Select all employees, whose department name is "EE" and "CSE" using IN operator.
+2. Display all the details of department, whose name does not start with ‘E’ using LIKE operator.
+3. Calculate the  4th  times salary of all employees, who are woking as ‘Manager’ and diplay complete data of employee ;
+4. Count and diplay the total employees working as ‘MANAGER’.
+5. Calculate and diplay the total salary (salary + commission) of the employees.
+6. Calaulate the max and min commission of employee table and rename the column as max_comm and min_comm.
+7. Display total salary spent for employees who are working as ‘Manager’.
+8. List all employee names, DOJ, salary and 30% rise in salary.
+9. Display highest paid employee details under each manager.
+10. Display number of employees working in each department and their department name.
