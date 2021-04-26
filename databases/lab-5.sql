@@ -7,3 +7,8 @@ SELECT * FROM DEPARTMENT WHERE DNAME NOT LIKE 'E%';
 --> Calculate the 4th times salary of all employees, who are woking as ‘Manager’ and diplay complete data of employee ;
 SELECT *, SAL * 4 AS FourthTimesSalary FROM EMPLOYEE WHERE JOB = 'Manager';
 
+--> Count and diplay the total employees working as ‘MANAGER’.
+SELECT COUNT(*) AS TotalManagers
+FROM EMPLOYEE
+WHERE JOB = 'Manager';
+
