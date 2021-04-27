@@ -24,3 +24,8 @@ SELECT SUM(SAL) FROM EMPLOYEE WHERE JOB = 'Manager';
 --> List all employee names, DOJ, salary and 30% rise in salary.
 SELECT ENAME, DOJ, SAL, SAL * 1.3 AS INCREASED_SALARY FROM EMPLOYEE;
 
+--> Display highest paid employee details under each manager.
+SELECT MAX(SAL), MGR FROM EMPLOYEE GROUP BY MGR;
+
+--> Display number of employees working in each department and their department name.
+SELECT COUNT(*), DNAME FROM EMPLOYEE GROUP BY DNAME;
