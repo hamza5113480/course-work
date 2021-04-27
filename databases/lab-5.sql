@@ -18,3 +18,6 @@ SELECT SUM (SAL, COMISSION) FROM EMPLOYEE;
 --> Calaulate the max and min commission of employee table and rename the column as max_comm and min_comm.
 SELECT MAX(Commission) AS max_comm, MIN(Commission) AS min_comm FROM EMPLOYEE;
 
+--> Display total salary spent for employees who are working as ‘Manager’.
+SELECT SUM(SAL) FROM EMPLOYEE WHERE JOB = 'Manager';
+
