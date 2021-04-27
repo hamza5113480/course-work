@@ -12,3 +12,6 @@ SELECT COUNT(*) AS TotalManagers
 FROM EMPLOYEE
 WHERE JOB = 'Manager';
 
+--> Calculate and diplay the total salary (salary + commission) of the employees.
+SELECT SUM (SAL, COMISSION) FROM EMPLOYEE;
+
