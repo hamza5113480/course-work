@@ -21,3 +21,6 @@ SELECT MAX(Commission) AS max_comm, MIN(Commission) AS min_comm FROM EMPLOYEE;
 --> Display total salary spent for employees who are working as ‘Manager’.
 SELECT SUM(SAL) FROM EMPLOYEE WHERE JOB = 'Manager';
 
+--> List all employee names, DOJ, salary and 30% rise in salary.
+SELECT ENAME, DOJ, SAL, SAL * 1.3 AS INCREASED_SALARY FROM EMPLOYEE;
+
