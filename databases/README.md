@@ -47,7 +47,7 @@
 ### Lab-5:
 1. Select all employees, whose department name is "EE" and "CSE" using IN operator.
 2. Display all the details of department, whose name does not start with ‘E’ using LIKE operator.
-3. Calculate the  4th  times salary of all employees, who are woking as ‘Manager’ and diplay complete data of employee ;
+3. Calculate the  4th  times salary of all employees, who are woking as ‘Manager’ and diplay complete data of employee;
 4. Count and diplay the total employees working as ‘MANAGER’.
 5. Calculate and diplay the total salary (salary + commission) of the employees.
 6. Calaulate the max and min commission of employee table and rename the column as max_comm and min_comm.
@@ -55,3 +55,14 @@
 8. List all employee names, DOJ, salary and 30% rise in salary.
 9. Display highest paid employee details under each manager.
 10. Display number of employees working in each department and their department name.
+
+### Lab-6:
+1. Select all employees from ‘EE’, ‘IS’ and ‘CSE’ department using UNION operator.
+2. Display all employees name and salary, whose salary is lesser than maximum salary of the company and job title starts with ‘S’.
+3. Write a query to find all the employees who work in the same job as ‘ALI’.
+4. Write a query to display information of employees who earn more than any employee in dept 10.
+5. Display the employees who have the same job as ‘ALI’ and whose salary <= ‘NASIR’.
+6. Write a query to display the name and job of all employees in dept 20 who have a job that someone in the CSE dept as well.
+7. Write a query to list all the employees who salary is < the average salary of their own dept.
+8. Write a query to list the employees in dept 10 with the same job as anyone in the ‘CSE’ dept.
+9. Write a query to create a view, which list the employees including dept name.
