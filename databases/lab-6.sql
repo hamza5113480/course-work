@@ -10,3 +10,8 @@ UNION
 SELECT E.* FROM EMPLOYEE E
 JOIN DEPARTMENT D ON E.DEPTNO = D.DEPTNO
 WHERE D.DNAME = 'CSE';
+
+--> Display all employees name and salary, whose salary is lesser than maximum salary of the company and job title starts with ‘S’.
+SELECT ENAME, SAL FROM EMPLOYEE
+WHERE SAL < (SELECT MAX(SAL) FROM EMPLOYEE)
+  AND JOB LIKE 'S%';
