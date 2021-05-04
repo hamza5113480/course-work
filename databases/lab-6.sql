@@ -15,3 +15,7 @@ WHERE D.DNAME = 'CSE';
 SELECT ENAME, SAL FROM EMPLOYEE
 WHERE SAL < (SELECT MAX(SAL) FROM EMPLOYEE)
   AND JOB LIKE 'S%';
+
+--> Write a query to find all the employees who work in the same job as ‘ALI’.
+SELECT * FROM EMPLOYEE
+WHERE JOB = (SELECT JOB FROM EMPLOYEE WHERE ENAME = 'ALI');
