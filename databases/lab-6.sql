@@ -23,3 +23,9 @@ WHERE JOB = (SELECT JOB FROM EMPLOYEE WHERE ENAME = 'ALI');
 --> Write a query to display information of employees who earn more than any employee in dept 10.
 SELECT * FROM EMPLOYEE
 WHERE SAL > (SELECT MAX(SAL) FROM EMPLOYEE WHERE DEPTNO = 10);
+
+--> Display the employees who have the same job as ‘ALI’ and whose salary <= ‘NASIR’.
+SELECT * FROM EMPLOYEE
+WHERE JOB = (SELECT JOB FROM EMPLOYEE WHERE ENAME = 'ALI')
+  AND SAL <= (SELECT SAL FROM EMPLOYEE WHERE ENAME = 'NASIR');
+
