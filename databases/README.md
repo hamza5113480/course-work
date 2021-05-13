@@ -66,3 +66,17 @@
 7. Write a query to list all the employees who salary is < the average salary of their own dept.
 8. Write a query to list the employees in dept 10 with the same job as anyone in the ‘CSE’ dept.
 9. Write a query to create a view, which list the employees including dept name.
+
+### Lab-7:
+- Create AccDept.( Accredited Department by quality council)
+
+             DEPTNO	|      DNAME	 |     DCity
+              --------------------------------------
+             10 	|	EE 	 |  MAIN BLOCK
+             20 	|	CSE      |  MANUFACTURING UNIT
+             30 	|	IS	 |  MAIN BLOCK
+1. Display the departments that are accredited by the quality council.
+2. Display the employees of departments which are not accredited by the quality council
+3. Write a query to output the name, job, empno, deptname and location for each dept, even if there are no employees.
+4. Find the name of the manager for each employee. Include the following in the output: empno, empname, job and his manager’s name.
+5. Display the details of those who draw the same salary.
