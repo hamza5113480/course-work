@@ -14,3 +14,10 @@ INSERT INTO AccDept (DEPTNO, DNAME, DCity) VALUES (30, 'IS', 'MAIN BLOCK');
 SELECT dept.DEPTNO,dept.DNAME,dept.DCity FROM AccDept as dept INNER JOIN AccDept
 ON dept.DEPTNO = AccDept.DEPTNO
 WHERE AccDept.DNAME = 'QC'
+
+-- Display the employees of departments which are not accredited by the quality council
+SELECT *
+FROM EMPLOYEE E
+WHERE E.DEPTNO NOT IN (SELECT DEPTNO FROM AccDept);
+
+
