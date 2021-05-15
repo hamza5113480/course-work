@@ -20,4 +20,9 @@ SELECT *
 FROM EMPLOYEE E
 WHERE E.DEPTNO NOT IN (SELECT DEPTNO FROM AccDept);
 
+-- Write a query to output the name, job, empno, deptname and location for each dept, even if there are no employees.
+SELECT E.EMPNO, E.ENAME, E.JOB, D.DNAME, D.LOCATION
+FROM DEPARTMENT D
+LEFT OUTER JOIN EMPLOYEE E ON D.DEPTNO = E.DEPTNO;
+
 
