@@ -31,3 +31,8 @@ SELECT E.EMPNO, E.ENAME AS EmployeeName, E.JOB, M.ENAME AS ManagerName
 FROM EMPLOYEE E
 LEFT OUTER JOIN EMPLOYEE M ON E.MGR = M.EMPNO;
 
+-- Display the details of those who draw the same salary.
+SELECT E1.*
+FROM EMPLOYEE E1
+JOIN EMPLOYEE E2 ON E1.SAL = E2.SAL AND E1.EMPNO <> E2.EMPNO;
+
