@@ -26,3 +26,8 @@ FROM DEPARTMENT D
 LEFT OUTER JOIN EMPLOYEE E ON D.DEPTNO = E.DEPTNO;
 
 
+-- Find the name of the manager for each employee. Include the following in the output: empno, empname, job and his manager’s name.
+SELECT E.EMPNO, E.ENAME AS EmployeeName, E.JOB, M.ENAME AS ManagerName
+FROM EMPLOYEE E
+LEFT OUTER JOIN EMPLOYEE M ON E.MGR = M.EMPNO;
+
