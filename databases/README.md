@@ -80,3 +80,10 @@
 3. Write a query to output the name, job, empno, deptname and location for each dept, even if there are no employees.
 4. Find the name of the manager for each employee. Include the following in the output: empno, empname, job and his manager’s name.
 5. Display the details of those who draw the same salary.
+
+### Lab-8:
+1. Write a procedure to add an amount of Rs.1000 for the employees whose salaries is greater than 5000 and who belongs to the deptno passed as an argument.
+2. Write a block to update the salary of the employee with a 10% increase whose empno is to be passed as an argument for the procedure.
+3. Write a function to find the salary of the employee who is working in the deptno 20 (to be passed as an argument).
+4. Write a function to find the nature of job of the employee whose deptno is 20(to be passed as an argument)
+5. Write a PL/SQL block to obtain the department name of the employee who works for deptno 30.
