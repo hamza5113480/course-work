@@ -18,3 +18,13 @@ BEGIN
     WHERE EMPNO = @EmpNo;
 END
 
+-- Write a function to find the salary of the employee who is working in the deptno 20 (to be passed as an argument).
+CREATE FUNCTION GetSalary(@DeptNo INT)
+RETURNS TABLE
+AS
+RETURN (
+    SELECT SAL
+    FROM EMPLOYEE
+    WHERE DEPTNO = @DeptNo
+);
+
