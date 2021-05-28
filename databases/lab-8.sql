@@ -28,3 +28,13 @@ RETURN (
     WHERE DEPTNO = @DeptNo
 );
 
+-- Write a function to find the nature of job of the employee whose deptno is 20(to be passed as an argument)
+CREATE FUNCTION GetJobNature(@DeptNo INT)
+RETURNS TABLE
+AS
+RETURN (
+    SELECT JOB
+    FROM EMPLOYEE
+    WHERE DEPTNO = @DeptNo
+);
+
