@@ -38,3 +38,12 @@ RETURN (
     WHERE DEPTNO = @DeptNo
 );
 
+-- Write a PL/SQL block to obtain the department name of the employee who works for deptno 30.
+CREATE PROCEDURE EX_FIVE(@target_employee int,@result_department varchar(20) OUTPUT)
+AS
+BEGIN
+DECLARE @department int;
+SET @department = 30;
+SELECT @result_department = DEPARTMENT.DNAME FROM DEPARTMENT,EMPLOYEE WHERE EMPLOYEE.EMPNO = @target_employee and DEPARTMENT.DEPTNO = @department
+SELECT @result_department;
+END
