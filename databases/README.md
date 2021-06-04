@@ -87,3 +87,8 @@
 3. Write a function to find the salary of the employee who is working in the deptno 20 (to be passed as an argument).
 4. Write a function to find the nature of job of the employee whose deptno is 20(to be passed as an argument)
 5. Write a PL/SQL block to obtain the department name of the employee who works for deptno 30.
+
+### Lab-9:
+1. Write a TRIGGER to ensure that DEPT TABLE does not contain duplicate of null values in DEPTNO column.
+2. Write a Trigger to carry out the following action: on deleting a deptno from dept table, all the records with that deptno has to be deleted from the emp table
+3. Write a Trigger to carry out the following action: on deleting any records from the emp table, the same values must be inserted into the log table.
