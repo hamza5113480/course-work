@@ -14,3 +14,14 @@ BEGIN
         ROLLBACK TRANSACTION;
     END
 END
+
+-- Write a Trigger to carry out the following action: on deleting a deptno from dept table, all the records with that deptno has to be deleted from the emp table
+CREATE TRIGGER trg_DeleteEmpOnDeptDelete
+ON DEPARTMENT
+FOR DELETE
+AS
+BEGIN
+    DELETE FROM EMPLOYEE
+    WHERE DEPTNO IN (SELECT DELETED.DEPTNO FROM DELETED);
+END
+
