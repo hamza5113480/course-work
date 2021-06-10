@@ -25,3 +25,13 @@ BEGIN
     WHERE DEPTNO IN (SELECT DELETED.DEPTNO FROM DELETED);
 END
 
+-- Write a Trigger to carry out the following action: on deleting any records from the emp table, the same values must be inserted into the log table.
+CREATE TRIGGER trg_LogDeleteEmp
+ON EMPLOYEE
+FOR DELETE
+AS
+BEGIN
+    INSERT INTO LOG (EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, DEPTNO)
+    SELECT EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, DEPTNO
+    FROM DELETED;
+END
