@@ -6,3 +6,4 @@
     - Enter first number: 25
     - Enter second number: 50
     - The sum of two numbers is: 75
+5. Write a program that reads five unsigned integers from user and display sum of those five integers on the screen.   
