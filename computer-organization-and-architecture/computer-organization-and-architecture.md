@@ -11,3 +11,4 @@
 7. Write a program to use the SCAN_NUM to input prompt for values for three variables x, y and z and the PRINT_NUM to display an appropriate label and value of the expression` x – y + 2z – 1. `
 8. Write an assembly language program that prompts for and inputs the length, width, and height of a box and calculates and displays its surface area.
    ` surface area = 2 * (length * width + length * height + width * height)`
+9. Write an assembly language program that takes a number from user and finds its factorial.
