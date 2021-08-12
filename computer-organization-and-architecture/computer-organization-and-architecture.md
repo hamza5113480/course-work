@@ -13,3 +13,4 @@
    ` surface area = 2 * (length * width + length * height + width * height)`
 9. Write an assembly language program that takes a number from user and finds its factorial.
 10. Write an assembly language program that takes a number from user and prints its table.
+11. Write an assembly language program that  takes a number from a user and find its square and cube.
