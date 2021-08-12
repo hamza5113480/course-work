@@ -12,3 +12,4 @@
 8. Write an assembly language program that prompts for and inputs the length, width, and height of a box and calculates and displays its surface area.
    ` surface area = 2 * (length * width + length * height + width * height)`
 9. Write an assembly language program that takes a number from user and finds its factorial.
+10. Write an assembly language program that takes a number from user and prints its table.
