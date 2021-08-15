@@ -14,3 +14,4 @@
 9. Write an assembly language program that takes a number from user and finds its factorial.
 10. Write an assembly language program that takes a number from user and prints its table.
 11. Write an assembly language program that  takes a number from a user and find its square and cube.
+12. Write a program that divide word size variables Var1=-500 and Var2=2 and stores the result in memory.
