@@ -15,3 +15,4 @@
 10. Write an assembly language program that takes a number from user and prints its table.
 11. Write an assembly language program that  takes a number from a user and find its square and cube.
 12. Write a program that divide word size variables Var1=-500 and Var2=2 and stores the result in memory.
+13. Write an assembly language program that prompts for inputs %marks of four exams M1, M2, M3, and M4. Suppose that M4 is a final exam that counts twice as much as the other three. Calculate the sum (adding the last grade twice) and the average (sum/5). Display the sum and average on two lines of a message box, each line with an appropriate label.
