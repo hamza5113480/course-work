@@ -18,3 +18,5 @@
 13. Write an assembly language program that prompts for inputs %marks of four exams M1, M2, M3, and M4. Suppose that M4 is a final exam that counts twice as much as the other three. Calculate the sum (adding the last grade twice) and the average (sum/5). Display the sum and average on two lines of a message box, each line with an appropriate label.
 14. Write a program that takes input from user in Celsius and Convert the temperature to Fahrenheit.
     `F = (9/5) *C + 32`
+15. Solve the following equation:
+    `Z=x+x2/2+x3/3+x4/4`
