@@ -22,3 +22,4 @@
     `Z=x+x2/2+x3/3+x4/4`
 16. Write a single instruction that clears the high 8 bits of AX and does not change the low 8 bits.
 17. Write a single instruction that sets the high 8 bits of AX and does not change the low 8 bits.
+18. Write a program to print the sum of series 1+3+6+  …  n and also print the value of ax and bx after each step.
