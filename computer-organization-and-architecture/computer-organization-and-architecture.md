@@ -29,3 +29,6 @@
     `if (value < -1000) or (value > 1000) then
     value := 0;
     end if;`
+22. Write an assembly language code that takes input an integer (less than 10) from user and print it in English word e.g.
+    `    Please Input an integer (less than 10) = 6
+    You have Entered = Six`
