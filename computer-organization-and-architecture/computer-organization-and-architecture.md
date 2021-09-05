@@ -25,3 +25,7 @@
 18. Write a program to print the sum of series 1+3+6+  …  n and also print the value of ax and bx after each step.
 19. Write a program to print the smallest number from three integers.
 20. Write an assembly language program that will repeatedly prompt for a number. After each number is entered, display the sum and average of all the numbers entered so far.
+21. Write an assembly language code that implements the following if statement. Input an integer from user and store in DX.
+    `if (value < -1000) or (value > 1000) then
+    value := 0;
+    end if;`
