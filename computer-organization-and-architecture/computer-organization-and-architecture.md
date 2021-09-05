@@ -32,3 +32,4 @@
 22. Write an assembly language code that takes input an integer (less than 10) from user and print it in English word e.g.
     `    Please Input an integer (less than 10) = 6
     You have Entered = Six`
+23. Write an assembly language code that takes input an integer from user and print if its even or odd.
