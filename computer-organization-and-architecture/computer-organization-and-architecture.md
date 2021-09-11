@@ -33,3 +33,4 @@
     `    Please Input an integer (less than 10) = 6
     You have Entered = Six`
 23. Write an assembly language code that takes input an integer from user and print if its even or odd.
+24. Write a program in assembly to check if the number is positive or negative.
