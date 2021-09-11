@@ -34,3 +34,6 @@
     You have Entered = Six`
 23. Write an assembly language code that takes input an integer from user and print if its even or odd.
 24. Write a program in assembly to check if the number is positive or negative.
+25. Write a program in assembly to check following condition
+    `    If (num >0) and (num <100)
+    Num=num*2`
