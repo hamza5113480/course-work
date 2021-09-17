@@ -37,3 +37,10 @@
 25. Write a program in assembly to check following condition
     `    If (num >0) and (num <100)
     Num=num*2`
+26. Write a program in assembly which takes marks from the user and allot the grade accordingly
+    - A --> 100-80
+    - B --> 70-79
+    - C --> 60-69
+    - D --> 50-59
+    - F --> 0-49
+    - If number is not in range display message “Incorrect number Entered”.
