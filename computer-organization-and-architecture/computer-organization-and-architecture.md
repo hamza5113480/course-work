@@ -45,3 +45,4 @@
     - F --> 0-49
     - If number is not in range display message “Incorrect number Entered”.
 27. Write a code in assembly language to print Fibonacci series. The number of terms to be calculated will be entered by the user.
+28. Write a program in assembly to break and print a 5-digit number in reverse order.
