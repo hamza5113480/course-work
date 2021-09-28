@@ -48,3 +48,4 @@
 28. Write a program in assembly to break and print a 5-digit number in reverse order.
 29. Compute the following equation in assembly language. N will be entered by the user.
     ` F(x)=1+x/2+x/3+x/4+x/5+x/6…… `up to n terms
+30. Write a code to convert a decimal number into binary using assembly language.
