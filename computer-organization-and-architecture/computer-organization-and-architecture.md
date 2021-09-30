@@ -50,3 +50,4 @@
     ` F(x)=1+x/2+x/3+x/4+x/5+x/6…… `up to n terms
 30. Write a code to convert a decimal number into binary using assembly language.
 31. Write an assembly language program that will prompt for an integer n and the print the table of n upto 20 on screen.
+32. Write an assembly language program that will prompt for an integer n, compute the factorial of n and display it on screen.
