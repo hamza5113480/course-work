@@ -53,3 +53,4 @@
 32. Write an assembly language program that will prompt for an integer n, compute the factorial of n and display it on screen.
 33. Write an assembly language program that will prompt for and input each number.  Assume that no more than 10 numbers will be entered. Display the sum of the numbers, how many numbers were entered, the average of the numbers, and the count of array entries that are greater than or equal to the average value.
 34. Write an assembly language program that inputs a collection of integers into an array and implements sequential search for a particular integer entered by the user.
+35. Write a program in assembly that takes two number from user in a procedure and calculates area in main procedure.
